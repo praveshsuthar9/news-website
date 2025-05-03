@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    width:1440px ;
+    margin: 0 auto;
+  }
+  
+  section{
+    padding: 50px 0;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 1200px) {
+    .container{
+      width: auto;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container{
+      width: auto;
+    }
+  
+    section{
+      padding: 30px 5px;
+    }
+  }
